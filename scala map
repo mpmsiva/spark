@@ -1,0 +1,20 @@
+package pack
+
+object obj {
+  def main(args:Array[String]):Unit={
+    
+    println("started")
+
+      val lis = List( "zeyobron"  ,  "zeyo"  )
+			println(lis)
+			
+			lis.foreach(println)
+		
+			val result = lis.map(x=> x + " ANALYTICS")
+			
+			println(result)
+	   
+    
+  }
+  
+}
